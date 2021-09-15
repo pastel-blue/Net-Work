@@ -8,13 +8,13 @@
     "text": "Net-Work"
   },
   "text": {
-    "more": "공연단체에 해당하는 제작사, 제작진, 출연진 간의 관계를 알아본다.",
+    "more": "공연단체에 해당하는 제작사, 제작진, 출연진 간의 관계를 알아본다.할\n노드 색상은 각각 보라색: 출연진, 주황색: 제작진, 초록색: 제작사를 의미한다.\n노드 사이즈는 Degree에 따라 그 크기가 다르다.",
     "intro": "공연단체 네트워크",
     "title": "공연단체 네트워크"
   },
   "legend": {
     "edgeLabel": "Edge description",
-    "colorLabel": "Modularity",
+    "colorLabel": "역할",
     "nodeLabel": "Node description"
   },
   "features": {
