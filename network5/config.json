@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Net-Work"
+  },
+  "text": {
+    "more": "공연단체의 주체들 간의 관계를 파악하기 위한 네트워크\n노드는 공연단체의 주체인 출연진, 제작진, 제작사로 설정\n\n노드 색상은 각각의 역할이다.\n노드 사이즈는 Degree에 따라 그 크기가 다르다.\n이외에도 다양한 통계적 수치를 같이 볼 수 있다.",
+    "intro": "공연단체 네트워크",
+    "title": "공연단체 네트워크"
+  },
+  "legend": {
+    "edgeLabel": "Edge description",
+    "colorLabel": "Role",
+    "nodeLabel": "Node description"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
