@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Net-Work"
+  },
+  "text": {
+    "more": "공연유통시장의 구조를 파악하기 위한 네트워크이다.\n노드는 대관 계약 관계에 있는 공연시설과 공연단체(대표로 제작사)로 설정했다.\n\n노드 색상은 Modularity로, 일종의 군집분석을 의미한다.\n노드 사이즈는 Degree에 따라 그 크기가 다르다.\n이외에도 다양한 통계적 수치를 같이 볼 수 있다.",
+    "intro": "공연시설과 제작사간 네트워크",
+    "title": "공연유통시장 네트워크"
+  },
+  "legend": {
+    "edgeLabel": "Edge description",
+    "colorLabel": "Modularity",
+    "nodeLabel": "Node description"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
